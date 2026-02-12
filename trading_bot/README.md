@@ -1,12 +1,10 @@
-# 🤖 Binance Futures Testnet Trading Bot
+# Binance Futures Testnet Trading Bot
 
 [![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Binance](https://img.shields.io/badge/Binance-Testnet-F0B90B.svg)](https://testnet.binancefuture.com)
 
 A clean, structured Python application for placing orders on the **Binance Futures Testnet** (USDT-M). Features an interactive menu mode, real-time market data, comprehensive validation, and detailed logging.
-
-![Trading Bot Banner](docs/banner.png)
 
 ## ✨ Features
 
@@ -27,24 +25,22 @@ A clean, structured Python application for placing orders on the **Binance Futur
 ## 📸 Screenshots
 
 ### Interactive Menu Mode
-![Main Menu](docs/screenshots/main-menu.png)
+<img width="932" height="375" alt="screenshot-2026-02-12_21-58-26" src="https://github.com/user-attachments/assets/8ed64ee7-4bb2-4785-a621-cb957588d7fc" />
+
 *Main menu with colorful, easy-to-navigate interface*
 
 ### Market Data Display
-![Market Data](docs/screenshots/market-data.png)
+<img width="934" height="715" alt="screenshot-2026-02-12_21-59-48" src="https://github.com/user-attachments/assets/a6680e76-a8e6-4510-a51a-f91a265ab758" />
+
+
 *24h statistics with price changes, volume, and trading activity*
 
 ### Order Book
-![Order Book](docs/screenshots/order-book.png)
+
+<img width="932" height="656" alt="screenshot-2026-02-12_22-00-50" src="https://github.com/user-attachments/assets/3f29e3ec-9422-4116-ab0b-11ea1bbd41ce" />
+
 *Real-time order book with bids and asks*
 
-### Account Information
-![Account Info](docs/screenshots/account-info.png)
-*View balances, open positions, and unrealized P&L*
-
-### Order Placement
-![Order Placement](docs/screenshots/order-placement.png)
-*Clear order summaries with confirmation prompts*
 
 ## 🏗️ Project Structure
 
@@ -353,7 +349,7 @@ MIT License - Feel free to use, modify, and distribute.
 
 ## 👨‍💻 Author
 
-Created for Binance Futures Testnet Trading Bot Assessment
+Created by Shakib S.
 
 ---
 
