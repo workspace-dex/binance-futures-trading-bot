@@ -1,0 +1,50 @@
+2026-02-12 19:53:07 - __main__ - INFO - ============================================================
+2026-02-12 19:53:07 - __main__ - INFO - SIMULATING MARKET ORDER
+2026-02-12 19:53:07 - __main__ - INFO - ============================================================
+2026-02-12 19:53:07 - __main__ - INFO - ORDER REQUEST SUMMARY
+2026-02-12 19:53:07 - __main__ - INFO - Symbol:        BTCUSDT
+2026-02-12 19:53:07 - __main__ - INFO - Side:          BUY
+2026-02-12 19:53:07 - __main__ - INFO - Order Type:    MARKET
+2026-02-12 19:53:07 - __main__ - INFO - Quantity:      0.01
+2026-02-12 19:53:07 - __main__ - INFO - API Request: POST /fapi/v1/order
+2026-02-12 19:53:07 - __main__ - INFO - Params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-02-12 19:53:07 - __main__ - INFO - API Response: 200 - {'orderId': 123456789, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'test_order_001', 'price': '0', 'avgPrice': '65234.50', 'origQty': '0.010', 'executedQty': '0.010', 'cumQuote': '652.3450', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'time': 1640995200000, 'updateTime': 1640995200000}
+2026-02-12 19:53:07 - __main__ - INFO - Order placed successfully
+2026-02-12 19:53:07 - __main__ - INFO - Order ID: 123456789
+2026-02-12 19:53:07 - __main__ - INFO - Status: FILLED
+2026-02-12 19:53:07 - __main__ - INFO - Executed Qty: 0.010
+2026-02-12 19:53:07 - __main__ - INFO - Avg Price: 65234.50
+2026-02-12 19:53:07 - __main__ - INFO - ============================================================
+2026-02-12 19:53:07 - __main__ - INFO - ============================================================
+2026-02-12 19:53:07 - __main__ - INFO - SIMULATING LIMIT ORDER
+2026-02-12 19:53:07 - __main__ - INFO - ============================================================
+2026-02-12 19:53:07 - __main__ - INFO - ORDER REQUEST SUMMARY
+2026-02-12 19:53:07 - __main__ - INFO - Symbol:        ETHUSDT
+2026-02-12 19:53:07 - __main__ - INFO - Side:          SELL
+2026-02-12 19:53:07 - __main__ - INFO - Order Type:    LIMIT
+2026-02-12 19:53:07 - __main__ - INFO - Quantity:      0.5
+2026-02-12 19:53:07 - __main__ - INFO - Price:         3500.00
+2026-02-12 19:53:07 - __main__ - INFO - Time In Force: GTC
+2026-02-12 19:53:07 - __main__ - INFO - API Request: POST /fapi/v1/order
+2026-02-12 19:53:07 - __main__ - INFO - Params: {'symbol': 'ETHUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.5, 'price': 3500.00, 'timeInForce': 'GTC'}
+2026-02-12 19:53:07 - __main__ - INFO - API Response: 200 - {'orderId': 987654321, 'symbol': 'ETHUSDT', 'status': 'NEW', 'clientOrderId': 'test_order_002', 'price': '3500.00', 'avgPrice': '0.00', 'origQty': '0.500', 'executedQty': '0.000', 'cumQuote': '0', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'time': 1640995300000, 'updateTime': 1640995300000}
+2026-02-12 19:53:07 - __main__ - INFO - Order placed successfully
+2026-02-12 19:53:07 - __main__ - INFO - Order ID: 987654321
+2026-02-12 19:53:07 - __main__ - INFO - Status: NEW
+2026-02-12 19:53:07 - __main__ - INFO - Price: 3500.00
+2026-02-12 19:53:07 - __main__ - INFO - ============================================================
+2026-02-12 19:53:07 - __main__ - INFO - ============================================================
+2026-02-12 19:53:07 - __main__ - INFO - SIMULATING VALIDATION ERROR
+2026-02-12 19:53:07 - __main__ - INFO - ============================================================
+2026-02-12 19:53:07 - __main__ - INFO - Validation Errors:
+2026-02-12 19:53:07 - __main__ - ERROR -   - Symbol is required
+2026-02-12 19:53:07 - __main__ - ERROR -   - Quantity must be positive, got: -0.01
+2026-02-12 19:53:07 - __main__ - INFO - ============================================================
+2026-02-12 19:53:07 - __main__ - INFO - ============================================================
+2026-02-12 19:53:07 - __main__ - INFO - SIMULATING API ERROR
+2026-02-12 19:53:07 - __main__ - INFO - ============================================================
+2026-02-12 19:53:07 - __main__ - INFO - API Request: POST /fapi/v1/order
+2026-02-12 19:53:07 - __main__ - INFO - Params: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 100}
+2026-02-12 19:53:07 - __main__ - ERROR - API Error: Code -2019 - Margin is insufficient.
+2026-02-12 19:53:07 - __main__ - INFO - Order placement failed: API Error: Margin is insufficient.
+2026-02-12 19:53:07 - __main__ - INFO - ============================================================

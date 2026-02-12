@@ -1,0 +1,2 @@
+2026-02-12 19:52:44 - bot.client - INFO - API Request: GET /fapi/v2/account - Params: {'timestamp': 1770906164245, 'recvWindow': 5000, 'signature': 'e3353005149d7e707f88d94ff340337435a1018155b06bcfadca0f4967615c1e'}
+2026-02-12 19:52:44 - bot.client - ERROR - HTTP error: GET /fapi/v2/account - 400 - {"code":-1022,"msg":"Signature for this request is not valid."}
